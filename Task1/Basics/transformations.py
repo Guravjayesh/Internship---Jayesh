@@ -1,8 +1,8 @@
 import cv2 as cv
 import numpy as np
 
-img = cv.imread('images/park.jpg')
-cv.imshow('Park', img)
+img = cv.imread('images/nature.jpg')
+cv.imshow('Nature', img)
 
 # Translation
 def translate(img, x, y):

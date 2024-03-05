@@ -1,7 +1,7 @@
 import cv2 as cv
 
-img = cv.imread('images/cats.jpg')
-cv.imshow('Cats', img)
+img = cv.imread('images/dogs.jpg')
+cv.imshow('dogs', img)
 
 gray = cv.cvtColor(img, cv.COLOR_BGR2GRAY)
 cv.imshow('Gray', gray)

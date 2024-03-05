@@ -1,7 +1,7 @@
 import cv2 as cv
 # Read in an image
-img = cv.imread('images\park.jpg')
-cv.imshow('ParkImage', img)
+img = cv.imread('images\nature.jpg')
+cv.imshow('NatureImage', img)
 
 # Converting to grayscale
 gray = cv.cvtColor(img, cv.COLOR_BGR2GRAY)
