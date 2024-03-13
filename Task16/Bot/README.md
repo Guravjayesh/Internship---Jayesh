@@ -1,4 +1,4 @@
-# Nitesh bot
+# Jayesh bot
 
 A bot that echoes back user response
 
